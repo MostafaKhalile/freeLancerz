@@ -1,0 +1,41 @@
+name: freelancers
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.6
+  flutter_spinkit: ^5.1.0
+  shared_preferences: ^2.0.18
+  connectivity_plus: ^3.0.3
+  dio: ^5.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-Black.ttf
+          weight: 900
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/svg/
